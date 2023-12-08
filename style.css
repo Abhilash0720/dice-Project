@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.dice-game-box{
+    min-height: 600px;
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.dice-game-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h4{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 0.8em; 
+    font-size: 20px;
+    color: darkgreen;
+}
+
+h2{
+    text-align: center;
+}
+
+.score-main-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top:  30px 
+}
+
+.score-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.btn{
+    display: block;
+    margin: 2em auto;
+    padding: 0.4em 1.2em;
+    font-size: 15px;
+    border: none;
+    background: green;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reset-btn{
+    background-color: pink;
+    color: black;
+}
+
+
+
+.score-box-container h3{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2rem;
+}
+
+.active{
+    box-shadow: 1px 2px 6px rgb(47, 0, 79);
+}
